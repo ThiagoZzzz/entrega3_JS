@@ -1,0 +1,112 @@
+body{
+    font-family: "Poppins";
+    color: white;
+    background: #201a14
+}
+.tittle{
+    font-size: 2.5rem;
+    color: #c42c27;
+    border-bottom: 2px solid rgb(243, 232, 232);
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input_search{
+    margin: 1rem;
+    display: flex;
+    gap: 8px;
+}
+.input_search > input{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.input_search > input::placeholder{
+    text-align: center;
+}
+.search_button{
+    border-radius: 80%;
+    padding: 8px;
+    background-color: #575857;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .3s ease-in
+}
+.search_button:hover{
+    cursor: pointer;
+    background-color: #3b3a3a;
+    transition: all .3s ease-in-out;
+}
+.card_container{
+    margin: 2rem;
+    display: flex;
+    background: #1d0e02;
+    border-radius: 1rem;
+    box-shadow: rgba(2, 1, 0, 0.548) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card_container > img{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.details{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.details > button{
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 10px;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .3s ease-in
+}
+.details > button:hover{
+    cursor: pointer;
+    background-color: #169c62;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.details > h3{
+    margin: 0;
+    font-size: 1.8rem;
+}
+.details > h3::first-letter{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.column{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.column > p{
+    max-width: 250px;
+    font-style: italic;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem;
+    background-color:#d11002b9 ;
+    border-radius: 1rem;
+    box-shadow: rgba(2, 1, 0, 0.548) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.error > h2{
+    margin: 12px;
+}
+.error > p{
+    margin: 0;
+}
